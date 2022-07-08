@@ -1,0 +1,46 @@
+@import url(owl.carousel.min.css);
+@import url(owl.theme.default.min.css);
+header {
+  padding: 30px 0; }
+  header .navbar-expand-lg .navbar-nav .first-link {
+    margin: 0 16px;
+    padding: 0; }
+  header .navbar-expand-lg .navbar-nav .second-link {
+    margin: 0 17px 0 16px;
+    padding: 0; }
+  header .navbar-expand-lg .navbar-nav .third-link {
+    margin: 0 22px 0 17px;
+    padding: 0; }
+  header .navbar-expand-lg .navbar-nav .fourth-link {
+    margin: 0 22px;
+    padding: 0; }
+  header .nav-link, header .basket_logo {
+    margin: 0 13px;
+    padding: 0; }
+  header .dropdown-toggle::after {
+    border: solid;
+    border-width: 0 1.5px 1.5px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg); }
+
+.main_banner {
+  padding-top: 108px;
+  padding-bottom: 37px; }
+  .main_banner .background-color {
+    background: #DCE5E2;
+    border-radius: 32px; }
+  .main_banner .text_content {
+    padding-top: 145px;
+    padding-bottom: 127px;
+    padding-left: 56px; }
+    .main_banner .text_content p {
+      margin-bottom: 30px; }
+  .main_banner .img-1 {
+    background-image: url("../images/IMAGE1.png");
+    background-size: cover;
+    height: 100%;
+    background-position: center; }
+
+/*# sourceMappingURL=style.css.map */
