@@ -324,3 +324,48 @@ header {
     margin-bottom: 56px;
   }
 }
+
+.search_banner {
+  padding-top: 51px;
+  padding-bottom: 19px;
+
+  .search_container nav {
+    position: relative;
+
+    form button {
+      position: absolute;
+      top: 1px;
+      left: calc(50% - 365px);
+    }
+
+    .search_form {
+      padding: 21px 476px 22px 67px;
+    }
+  }
+  .gift_background{
+    background: #DCE5E2;
+    border-radius: 16px;
+    padding-top: 47px;
+    padding-bottom: 43px;
+  }
+  nav form{
+    box-sizing: inherit;
+    .email_form{
+      background-color: #DCE5E2;
+      border: 1px solid #000000;
+      border-radius: 54px 0 0 54px;
+      padding: 16px 184px 17px 32px;
+
+    }
+    .sign_form{
+      background: #000000;
+      border-radius: 0 200px 200px 0;
+      padding: 16px 33px 17px 32px;
+    }
+  }
+}
+
+footer{
+
+}
+
