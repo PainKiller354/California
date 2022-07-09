@@ -184,4 +184,46 @@ header {
     color: #000000;
     padding: 14px 53px; }
 
+.ideas_banner {
+  padding-top: 47px;
+  padding-bottom: 24px; }
+  .ideas_banner .arrow {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: relative; }
+    .ideas_banner .arrow::before {
+      content: '';
+      display: block;
+      width: 16px;
+      height: 15px;
+      top: 50%;
+      left: 50%;
+      border-radius: 2px;
+      border-style: solid;
+      border-color: #000;
+      border-width: 3px 3px 0 0;
+      position: absolute;
+      transform-origin: 50% 50%; }
+    .ideas_banner .arrow.up::before {
+      transform: rotate(360deg);
+      margin: 0; }
+    .ideas_banner .arrow::after {
+      content: '';
+      display: block;
+      top: 50%;
+      left: 50%;
+      border: 3px solid #151A1E;
+      position: absolute;
+      transform-origin: 50% 50%; }
+    .ideas_banner .arrow.up::after {
+      width: 0;
+      height: 18px;
+      border-radius: 25px;
+      border-width: 0 3px 0 0;
+      transform: rotate(45deg);
+      margin: -1px 0px 0px 5px; }
+  .ideas_banner .ideas_marg {
+    margin-bottom: 56px; }
+
 /*# sourceMappingURL=style.css.map */
