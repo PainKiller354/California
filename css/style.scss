@@ -150,7 +150,6 @@ header {
     background-size: cover;
     background-position: center;
     height: 100%;
-    width: 100%;
     padding-right: 30px;
   }
 
@@ -226,15 +225,46 @@ header {
 
   .cont_banner_4 {
     padding: 114px 0;
-  }
 
-  h3 {
-    padding-bottom: 42px;
+    h3 {
+      padding-bottom: 42px;
+    }
   }
 }
 
-.items {
+.items_banner {
   padding-top: 39px;
-  padding-bottom: 37px;
+  padding-bottom: 27px;
 
+  .container {
+    .background_img {
+      padding: 28px;
+    }
+  }
+}
+
+.best_around_banner {
+  padding-top: 47px;
+  padding-bottom: 28px;
+
+  .best_around_mard {
+    margin-bottom: 56px;
+  }
+
+  .border_rad {
+    border-radius: 16px;
+    padding-top: 41px;
+  }
+
+  a {
+    border: 1px solid #000000;
+    border-radius: 200px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    padding: 14px 53px;
+  }
 }
