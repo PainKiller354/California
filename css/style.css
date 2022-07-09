@@ -1,6 +1,9 @@
 @import url(owl.carousel.min.css);
 @import url(owl.theme.default.min.css);
 @import url(fonts.css);
+@media (min-width: 1200px) {
+  .container {
+    min-width: 1294px; } }
 header {
   padding: 30px 0; }
   header .navbar-expand-lg .navbar-nav .first-link {
@@ -74,7 +77,20 @@ header {
     padding-top: 145px;
     padding-bottom: 127px;
     padding-left: 56px; }
+    .main_banner .text_content h1 {
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 58px;
+      line-height: 70px;
+      color: #000000; }
     .main_banner .text_content p {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
       margin-bottom: 30px; }
     .main_banner .text_content a {
       border: 1px solid #000000;
@@ -84,14 +100,15 @@ header {
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;
-      text-transform: capitalize;
       color: #000000;
       padding: 14px 53px; }
   .main_banner .img_1 {
     background-image: url("../images/IMAGE1.png");
     background-size: cover;
     background-position: center;
-    height: 100%; }
+    height: 100%;
+    width: 100%;
+    padding-right: 30px; }
   .main_banner .img_2 {
     background-image: url("../images/IMAGE2.png");
     background-size: cover;
@@ -107,14 +124,14 @@ header {
   padding-top: 28px;
   padding-bottom: 39px; }
   .categories_banner .container h3 {
-    font-family: 'Readex Pro',sans-serif;
+    font-family: 'Readex Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
     color: #000000; }
   .categories_banner .container p {
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

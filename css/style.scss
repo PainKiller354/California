@@ -2,6 +2,11 @@
 @import "owl.theme.default.min.css";
 @import "fonts.css";
 
+@media (min-width: 1200px) {
+  .container {
+    min-width: 1294px;
+  }
+}
 
 header {
   padding: 30px 0;
@@ -108,7 +113,22 @@ header {
     padding-bottom: 127px;
     padding-left: 56px;
 
+    h1 {
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 58px;
+      line-height: 70px;
+      color: #000000;
+    }
+
     p {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
       margin-bottom: 30px;
     }
 
@@ -120,7 +140,6 @@ header {
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;
-      text-transform: capitalize;
       color: #000000;
       padding: 14px 53px;
     }
@@ -131,6 +150,8 @@ header {
     background-size: cover;
     background-position: center;
     height: 100%;
+    width: 100%;
+    padding-right: 30px;
   }
 
   .img_2 {
@@ -152,17 +173,19 @@ header {
 .categories_banner {
   padding-top: 28px;
   padding-bottom: 39px;
-  .container{
-    h3{
-      font-family: 'Readex Pro',sans-serif;
+
+  .container {
+    h3 {
+      font-family: 'Readex Pro', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 32px;
       line-height: 38px;
       color: #000000;
     }
-    p{
-      font-family: 'Inter',sans-serif;
+
+    p {
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -170,6 +193,7 @@ header {
       color: #000000;
     }
   }
+
   .cont_text {
     max-width: 628px;
     margin: 0 16px;
@@ -209,7 +233,7 @@ header {
   }
 }
 
-.items{
+.items {
   padding-top: 39px;
   padding-bottom: 37px;
 
