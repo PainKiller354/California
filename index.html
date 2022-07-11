@@ -13,59 +13,59 @@
     <title>California</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
 </head>
 <body>
 <header class="position-absolute w-100 inter_s14h17">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white p-0">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand z-index_10" href="#">
                 <img src="images/logo.svg" alt="logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
+            <button class="navbar-toggler order-lg-1 order-2 z-index_10" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center align-items-center"
+            <div class="collapse navbar-collapse justify-content-center align-items-center order-md-2 order-3"
                  id="navbarSupportedContent">
-                <ul class="navbar-nav text-uppercase align-items-center ">
-                    <li class="nav-item active">
+                <ul class="navbar-nav text-uppercase align-items-center py-0">
+                    <li class="nav-item active py-3">
                         <a class="nav-link first-link" href="#">All products <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item dropdown active">
+                    <li class="nav-item dropdown active py-3">
                         <a class="nav-link dropdown-toggle second-link" href="#" id="navbarDropdown" role="button"
                            data-toggle="dropdown" aria-expanded="false">
                             Solutions
                         </a>
                         <div class="dropdown-menu text-capitalize" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Phones</a>
-                            <a class="dropdown-item" href="#">Watches</a>
-                            <a class="dropdown-item" href="#">Tablets</a>
-                            <a class="dropdown-item" href="#">Laptops</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Other products</a>
+                            <a class="dropdown-item py-3" href="#">Phones</a>
+                            <a class="dropdown-item py-3" href="#">Watches</a>
+                            <a class="dropdown-item py-3" href="#">Tablets</a>
+                            <a class="dropdown-item py-3" href="#">Laptops</a>
+                            <a class="dropdown-item py-3" href="#">Other products</a>
                         </div>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item active py-3">
                         <a class="nav-link third-link" href="#">About</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item active py-3">
                         <a class="nav-link fourth-link" href="#">Support</a>
                     </li>
                 </ul>
             </div>
-            <form class="form-inline my-2 my-lg-0">
-                <div class="collapse" id="collapseExample">
-                    <div class="card border-0 card-body p-0">
-                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                    </div>
-                </div>
+            <form class="form-inline order-lg-3 order-1 z-index_10">
                 <p class="mb-0">
                     <a class="nav-link m-0 ml-2" data-toggle="collapse" href="#collapseExample" role="button"
                        aria-expanded="false" aria-controls="collapseExample">
                         <img src="images/search.svg" alt="logo">
                     </a>
                 </p>
+                <div class="collapse position-relative" id="collapseExample">
+                    <div class="card border-0 card-body p-0 search_input position-absolute">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    </div>
+                </div>
                 <a class="nav-link my-2 my-sm-0 basket_logo" href="#">
                     <img src="images/basket.svg" alt="logo">
                 </a>
@@ -77,39 +77,42 @@
     <div class="container">
         <div class="background-color owl-carousel">
             <div class="row">
-                <div class="col-6 text-left text_content">
+                <div class="col-12 col-lg-6 text-left text_content">
                     <h1 class="mb-3">The new phones are here take a look.</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam,
+                    <p class="pr-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui,
+                        aliquam,
                         tempor.
                         Faucibus morbi turpis.</p>
                     <a class="btn" href="#">Explore</a>
                 </div>
-                <div class="col-6">
-                    <div class="img_1"></div>
+                <div class="col-12 col-lg-6">
+                    <div class="border_rx32 main_banner_img_1"></div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 text-left text_content">
+                <div class="col-12 col-lg-6 text-left text_content">
                     <h1 class="mb-3">The new laptop are here take a look.</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam,
+                    <p class="pr-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui,
+                        aliquam,
                         tempor.
                         Faucibus morbi turpis.</p>
                     <a class="btn" href="#">Explore</a>
                 </div>
-                <div class="col-6">
-                    <div class="img_2"></div>
+                <div class="col-12 col-lg-6">
+                    <div class="border_rx32 main_banner_img_2"></div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 text-left text_content">
+                <div class="col-12 col-lg-6 text-left text_content">
                     <h1 class="mb-3">The new tablets are here take a look.</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam,
+                    <p class="pr-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui,
+                        aliquam,
                         tempor.
                         Faucibus morbi turpis.</p>
                     <a class="btn" href="#">Explore</a>
                 </div>
-                <div class="col-6">
-                    <div class="img_3"></div>
+                <div class="col-12 col-lg-6">
+                    <div class="border_rx32 main_banner_img_3"></div>
                 </div>
             </div>
         </div>
@@ -126,35 +129,46 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-6 d-flex flex-column px-2">
-                <div class="cont_banner_1 shadow">
-                    <img class="w-100" src="images/IMAGE2.png" alt="img_logo">
-                    <div class="text-right">
-                        <p class="m-0">Laptops</p>
-                        <h3 class="m-0">True Laptop<br> Solution</h3>
+            <div class="col-lg-6 col-12 d-flex flex-column p-2">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="cont_banner_1 shadow">
+                            <img class="w-100" src="images/IMAGE2_2.png" alt="img_logo">
+                            <div class="text-right">
+                                <p class="m-0">Laptops</p>
+                                <h3 class="m-0">True Laptop<br> Solution</h3>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="d-flex justify-content-between shadow cont_banner_2">
-                    <div class="w-75">
-                        <img class="w-100" src="images/IMAGE6.png" alt="img_logo">
-                    </div>
-                    <div class="text-right d-flex flex-column align-items-end justify-content-center">
-                        <p class="m-0">Watch</p>
-                        <h3 class="m-0">Not just<br> stylisht</h3>
+                    <div class="col-12">
+                        <div class="d-flex shadow cont_banner_2">
+                            <div class="w-75">
+                                <img class="w-100" src="images/IMAGE6.png" alt="img_logo">
+                            </div>
+                            <div class="text-right d-flex flex-column align-items-end justify-content-center">
+                                <p class="m-0">Watch</p>
+                                <h3 class="m-0">Not just<br> stylisht</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-6">
-                <div class="row px-2">
-                    <div class="col-6 text-center cont_banner_3 px-0 shadow">
-                        <img class="w-100" src="images/IMAGE4.png" alt="img_logo">
-                        <p class="m-0">Phones</p>
-                        <h3 class="m-0">Your day to day<br> life</h3>
+            <div class="col-lg-6 col-12">
+                <div class="row">
+                    <div class="col-12 col-sm-6 text-center p-2">
+                        <div class="shadow cont_banner_3 py-lg py-5">
+                            <img class="w-100 mt-xl-5 pt-lg pt-5" src="images/IMAGE4.png" alt="img_logo">
+                            <p class="m-0">Phones</p>
+                            <h3 class="m-0 mb-xl-5 pb-lg pb-md-1 pb-5">Your day to day<br> life</h3>
+                        </div>
                     </div>
-                    <div class="col-6 text-center cont_banner_4 shadow">
-                        <p class="m-0">Tablet</p>
-                        <h3 class="m-0">Empower your<br> work</h3>
-                        <img class="w-100" src="images/IMAGE5.png" alt="img_logo">
+                    <div class="col-12 col-sm-6 text-center p-2">
+                        <div class="shadow cont_banner_4 py-lg py-5">
+                            <p class="m-0  mt-xl-5 pt-lg pt-md-0 pt-xl-2 pt-lg-3 pt-5">Tablet</p>
+                            <h3 class="m-0">Empower your<br> work</h3>
+                            <img class="w-100 mb-xl-5 pb-xl-1 pb-lg-2 pb-md-2 pb-3" src="images/IMAGE5.png"
+                                 alt="img_logo">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -169,7 +183,7 @@
                 Flex™</p>
         </div>
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-12">
                 <div class="background_img">
                     <img src="images/selleditem1.png" alt="img_logo">
                 </div>
@@ -177,7 +191,7 @@
                 <p class="inter_s14h17">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
                 <a class="btn p-0 inter_s18h22" href="#">$ 1,200.00 USD</a>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-12">
                 <div class="background_img">
                     <img src="images/selleditem2.png" alt="img_logo">
                 </div>
@@ -186,7 +200,7 @@
                     adipisci velit...</p>
                 <a class="btn p-0 inter_s18h22" href="#">$ 199.00 USD</a>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-12">
                 <div class="background_img">
                     <img src="images/selleditem3.png" alt="img_logo">
                 </div>
@@ -195,7 +209,7 @@
                     adipisci velit...</p>
                 <a class="btn p-0 inter_s18h22" href="#">$ 1,009.00 USD</a>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="background_img">
                     <img src="images/selleditem4.png" alt="img_logo">
                 </div>
@@ -215,28 +229,28 @@
                 4-Door Flex™</p>
         </div>
         <div class="row">
-            <div class="col-lg-4 text-center">
-                <div class="badge-light border_rad">
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center py-2">
+                <div class="badge-light border_rad ">
                     <p class="m-0 readex_pro_s13h17">Smart light bulb pack</p>
                     <h2 class="readex_pro_s28h35">Latest and gratest</h2>
-                    <p class="my-4"><a class="btn inter_s18h22" href="#">Explore</a></p>
-                    <img src="images/IMAGE7.png" alt="img_logo">
+                    <p class="my-md-4"><a class="btn inter_s18h22" href="#">Explore</a></p>
+                    <img class="d-block w-100" src="images/IMAGE7.png" alt="img_logo">
                 </div>
             </div>
-            <div class="col-lg-4 text-center">
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center py-2">
                 <div class="badge-light border_rad">
                     <p class="m-0 readex_pro_s13h17">Smart light bulb pack</p>
                     <h2 class="readex_pro_s28h35">Best selling</h2>
                     <p class="my-4"><a class="btn inter_s18h22" href="#">Explore</a></p>
-                    <img src="images/IMAGE8.png" alt="img_logo">
+                    <img class="d-block w-100" src="images/IMAGE8.png" alt="img_logo">
                 </div>
             </div>
-            <div class="col-lg-4 text-center">
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center py-2">
                 <div class="badge-light border_rad">
                     <p class="m-0 readex_pro_s13h17">Smart light bulb pack</p>
                     <h2 class="readex_pro_s28h35">Every product</h2>
                     <p class="my-4"><a class="btn inter_s18h22" href="#">Explore</a></p>
-                    <img src="images/IMAGE9.png" alt="img_logo">
+                    <img class="d-block w-100" src="images/IMAGE9.png" alt="img_logo">
                 </div>
             </div>
         </div>
@@ -249,15 +263,15 @@
             <p class="d-inline-block ideas_marg readex_pro_s13h17">Our new Limited Edition Winter Design BESPOKE
                 4-Door Flex™</p>
         </div>
-        <div class="row ideas_marg">
-            <div class="col-md-6 order-md-2 inter_s24h30">
+        <div class="row ideas_marg text-center">
+            <div class="col-xl-6 col-12 order-md-2 inter_s24h30 text-left">
                 <p class="py-2">We Make It Easy To Find The Great Design Talent, Easier...</p>
                 <p class="py-2">Road Design Handbook For The International Road...</p>
                 <p class="py-2">The Best Kept Secrets About Creative People</p>
                 <p class="py-2">We Make It Easy To Find The Great Design Talent, Easier...</p>
             </div>
-            <div class="col-md-6 order-md-1">
-                <img src="images/IMAGE10.jpg" alt="">
+            <div class="col-xl-6 col-12 order-md-1">
+                <img class="d-block w-100" src="images/IMAGE10.jpg" alt="img_logo">
             </div>
         </div>
         <div class="mt-3 text-center align-items-center after_all">
@@ -267,33 +281,70 @@
 </section>
 <section class="search_banner">
     <div class="container">
-        <div class="text-center search_container">
+        <div class="text-center search_container pb-5">
             <h2 class="mb-4 readex_pro_s42h52">Looking for anything else?</h2>
-            <nav class="navbar navbar-expand-sm navbar-light p-0 justify-content-center">
-                <form class="form-inline mb-3" action="/action_page.php">
-                    <button class="btn rounded-circle" type="submit"><img src="images/search.svg" alt="logo"></button>
-                    <input class="form-control search_form rounded-pill inter_s14h17" type="text"
-                           placeholder="Search keyword"></form>
-            </nav>
+            <div class="row justify-content-center p-0">
+                <div class="col-11 col-md-12 col-xl-10 input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text bg-light border_rx32-l  pl-3" id="addon-wrapping"><img
+                                src="images/search.svg" alt="logo"></span>
+                    </div>
+                    <input type="text" class="form-control border_rx32-r bg-light search_form inter_s14h17"
+                           placeholder="Search keyword" aria-label="Username"
+                           aria-describedby="addon-wrapping">
+                </div>
+            </div>
+            <div class="m-0 pb-3">
+                <div class="justify-content-center m-0">
+                    <div class="btn-group">
+                        <a class="btn rounded-pill border m-1" href="#">iPhone</a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn rounded-pill border m-1" href="#">Charger</a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn rounded-pill border m-1" href="#">Gift</a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn rounded-pill border m-1" href="#">Google Pixel 3</a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn rounded-pill border m-1" href="#">Keyboard</a>
+                    </div>
+                </div>
+                <div class="justify-content-center m-0">
+                    <div class="btn-group">
+                        <a class="btn rounded-pill border m-1" href="#">13 Pro Max</a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn rounded-pill border m-1" href="#">iPhonen12</a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn rounded-pill border m-1" href="#">Laptop</a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn rounded-pill border m-1" href="#">Mobile</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-10">
-                <div class="gift_background text-center">
-                    <h2 class="readex_pro_s42h52">Never miss a thing</h2>
-                    <p class="inter_s16h19">Sign up for texts to be notified about our best offers on the perfect
-                        gifts.</p>
-                    <img class="mb-3" src="images/IMAGE11.png" alt="img_logo">
-                    <nav class="navbar navbar-expand-sm p-0 justify-content-center">
-                        <form class="form-inline" action="/action_page.php">
-                            <div class="input-group">
-                                <input type="email" class="email_form inter_s14h17" placeholder="Your email">
-                            </div>
-                            <div class="input-group-prepend ">
-                                <button type="submit" class="btn bg-dark sign_form text-white inter_s14h17">Sign up
-                                </button>
-                            </div>
-                        </form>
-                    </nav>
+        <div class="row justify-content-center pt-1">
+            <div class="col-10 gift_background text-center">
+                <h2 class="readex_pro_s42h52">Never miss a thing</h2>
+                <p class="inter_s16h19">Sign up for texts to be notified about our best offers on the
+                    perfect
+                    gifts.</p>
+                <img class="mb-3" src="images/IMAGE11.png" alt="img_logo">
+                <div class="email_form row justify-content-center">
+                    <div class="col-11 col-md-7 col-xl-5 input-group mb-3">
+                        <input type="email" class="form-control email_input inter_s14h17 " placeholder="Your email"
+                               aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary bg-dark sign_form text-white inter_s14h17"
+                                    type="submit" id="button-addon2">Sign up
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -302,7 +353,7 @@
 <footer class="pt-4 my-md-2 pt-md-5 border-top">
     <div class="container">
         <div class="row mb-5">
-            <div class="col-12 col-md mr-5">
+            <div class="col-12 col-md-4 mr-5">
                 <img class="mb-3" src="images/logo.svg" alt="logo">
                 <p class="d-block mb-3">Sign up for texts to be notified about our best offers on the perfect gifts.</p>
             </div>
@@ -343,10 +394,10 @@
         </div>
         <div class="row border-top">
             <div class="col-6 mt-5">
-                <p class="m-0">Made By: Azwedo</p>
+                <a class="btn m-0 p-0 inter_s18h22" href="#">Made By: Azwedo<span class="arrow up"></span></a>
             </div>
-            <div class="col-6 mt-5 d-flex justify-content-end pr-5">
-                <p class="m-0">Powered by: Webflow</p>
+            <div class="col-6 mt-5 d-flex justify-content-end">
+                <a class="btn m-0 p-0 inter_s18h22" href="#">Powered by: Webflow<span class="arrow up"></span></a>
             </div>
         </div>
     </div>
