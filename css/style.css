@@ -111,18 +111,18 @@ header {
       color: #000000;
       padding: 14px 53px; }
   .main_banner .main_banner_img_1 {
-    background-image: url("../images/IMAGE1.png");
+    background-image: url("../images/IMAGE1.webp");
     background-size: cover;
     background-position: center;
     height: 100%;
     padding-right: 30px; }
   .main_banner .main_banner_img_2 {
-    background-image: url("../images/IMAGE2.png");
+    background-image: url("../images/IMAGE2.webp");
     background-size: cover;
     background-position: center;
     height: 100%; }
   .main_banner .main_banner_img_3 {
-    background-image: url("../images/IMAGE3.png");
+    background-image: url("../images/IMAGE3.webp");
     background-size: cover;
     background-position: center;
     height: 100%; }
@@ -188,7 +188,7 @@ header {
   .best_around_banner .border_rad {
     border-radius: 16px;
     padding-top: 41px;
-    min-height: 472px; }
+    min-height: 580px; }
   .best_around_banner a {
     border: 1px solid #000000;
     border-radius: 200px;
